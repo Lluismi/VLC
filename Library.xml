@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Catalog>  
+   	<artists>  
+      	<name id="01">Imagine Dragons</name>    
+  	 </artists>
+   	<album_artist>
+		<name id="01">Imagine Dragons</name>
+		<album>Origins</album>
+  	 </album_artist>
+   	<albums>
+   	<album>Origins</album>
+   	</albums>
+	
+	<album_track>
+	</album_track>
+
+	<tracks>
+	</tracks>
+
+	<track_composers>
+	</track_composers>
+	
+	<composers>
+	</composers>
+
+	<type_media>
+	</type_media>
+
+	<genre>
+	</genre>
+
+	<playlist>
+	</playlist>
+
+	<playlist_tracks>
+	</playlist_tracks>
+</Catalog>
