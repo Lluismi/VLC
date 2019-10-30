@@ -1,38 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Assignatura: Lleguatge de Marques -->
+<!-- Nom del treball: Tasca 2 -->
+<!-- Nom de l'autor: Lluis Miquel i Berkan -->
+
+<!-- He colocado de esta manera porque es más fácil de rellenar y no es necesario repetir el nombre todo el rato de está manera basta con poner el ID-->
 
 <Catalog>  
    	<artists>  
-      	<name id="01">Imagine Dragons</name>    
-  	 </artists>
-   	<album_artist>
-		<name id="01">Imagine Dragons</name>
-		<album>Origins</album>
-  	 </album_artist>
+      	<artist id="01">Imagine Dragons</artist>
+  	</artists>
+
    	<albums>
-   	<album>Origins</album>
+   		<album id="01">Origins</album>
    	</albums>
-	
-	<album_track>
-	</album_track>
 
 	<tracks>
+		<track id="01">Natural
+			<album id="01"/>
+			<artist id="01"/>
+			<genre id="01"/>
+			<composer id="01"/>
+			<composer id="02"/>
+			<composer id="03"/>
+			<composer id="04"/>
+			<composer id="05"/>
+			<composer id="06"/>
+			<composer id="07"/>
+			<seconds>189</seconds>
+			<path>C:\User\Dual\Desktop\Musica</path>
+			<bytes>6.194.440</bytes>
+			<media_type id="02"/>
+		</track>
+		<track id="02">Zero
+			<album id="01"/>
+			<artist id="01"/>
+			<genre id="01"/>
+			<genre id="05"/>
+			<composer id="03"/>
+			<composer id="04"/>
+			<composer id="05"/>
+			<composer id="06"/>
+			<composer id="08"/>
+			<seconds>210</seconds>
+			<path>c:\User\Dual\Desktop\Musica</path>
+			<bytes>7.331.840</bytes>
+			<media_type id="02"/>
+		</track>
+		<track id="03">Machine
+			<album id="01"/>
+			<artist id="01"/>
+			<genre id="03"/>
+			<genre id="04"/>
+			<composer id="03"/>
+			<composer id="04"/>
+			<composer id="05"/>
+			<composer id="06"/>
+			<composer id="09"/>
+			<seconds>181</seconds>
+			<path>c:\User\Dual\Desktop\Musica</path>
+			<bytes>6.402.374</bytes>
+			<media_type id="01"/>
+		</track>
+		<track id="04">Bad Liar
+			<album id="01"/>
+			<artist id="01"/>
+			<genre id="04"/>
+			<composer id="03"/>
+			<composer id="04"/>
+			<composer id="05"/>
+			<composer id="06"/>
+			<composer id="10"/>
+			<composer id="11"/>
+			<seconds>260</seconds>
+			<path>c:\User\Dual\Desktop\Musica</path>
+			<bytes>9.156.247</bytes>
+			<media_type id="01"/>
+		</track>
 	</tracks>
-
-	<track_composers>
-	</track_composers>
 	
 	<composers>
+		<composer id="01">Justin Drew Tranter</composer>
+		<composer id="02">Mattias Larsson</composer> 
+		<composer id="03">Dan Reynolds</composer>
+		<composer id="04">Ben McKee</composer>
+		<composer id="05">Daniel Platzman</composer> 
+		<composer id="06">Daniel Wayne Sermon</composer>
+		<composer id="07">Robin Fredriksson</composer>
+		<composer id="08">John Hill</composer>
+		<composer id="09">Alex da Kid</composer>
+		<composer id="10">Aja Volkman</composer>
+		<composer id="11">Jorgen Odegard</composer>
 	</composers>
 
-	<type_media>
-	</type_media>
+	<media_types>
+		<media_type id="01">MP3</media_type>
+		<media_type id="02">MP4</media_type>
+	</media_types>
 
-	<genre>
-	</genre>
+	<playlists>
+		<playlist id="01">Imagina Dragones</playlist>
+	</playlists>
 
-	<playlist>
-	</playlist>
+	<playlists_tracks>
+		<playlist id="01"/>
+			<track id="01">
+				<number_track id="01"/>
+			<track id="02">
+				<number_track id="02"/>
+			<track id="03">
+				<number_track id="03"/>
+			<track id="04">
+				<number_track id="04"/>
+	</playlists_tracks>	
 
-	<playlist_tracks>
-	</playlist_tracks>
+	<genres>
+		<genre id="01">Pop rock</genre>
+		<genre id="02">Rock electronico</genre>
+		<genre id="03">Rock alternativo</genre>
+		<genre id="04">Indie rock</genre>
+		<genre id="05">Electropop</genre>
+	</genres>
 </Catalog>
