@@ -103,13 +103,13 @@
 
 	<playlists_tracks>
 		<playlist id="01"/>
-			<track id="01">
+			<track id="01"/>
 				<number_track id="01"/>
-			<track id="02">
+			<track id="02"/>
 				<number_track id="02"/>
-			<track id="03">
+			<track id="03"/>
 				<number_track id="03"/>
-			<track id="04">
+			<track id="04"/>
 				<number_track id="04"/>
 	</playlists_tracks>	
 
